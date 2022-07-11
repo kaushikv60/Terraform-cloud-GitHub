@@ -15,5 +15,5 @@ provider "aws" {
 
 resource "aws_instance" "VedInfra" {
 	ami = "ami-0c2b8ca1dad447f8a" 
-	instance_type = "t2.micro"
+	instance_type = "t1.micro"
 }
